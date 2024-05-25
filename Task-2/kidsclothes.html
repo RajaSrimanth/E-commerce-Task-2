@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+input[type=number]{
+width: 20%;
+border-radius:5px;
+border-color: 5px black;
+height:25px;
+text-align:center;
+}
+html{
+background-color:#d8e0fd;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+img{
+border-radius:5px;
+}
+/* Style the counter cards */
+.card {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top:5%;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+  background-color:white;
+  border-radius:5px;
+}
+.price {
+  color: black;
+  font-size: 20px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+ button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+}
+
+header {
+	height: 60px;
+	background: #262626;
+	padding: 0 20px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+nav {
+	width: 68%;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 0 10px;
+	line-height: 4
+	0px;
+	text-transform: uppercase;
+}
+.heading{
+text-align:center;
+color:maroon ;
+font-size:20px;
+}
+@media ( max-width : 600px) {
+	header {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.logo {
+		width: 100%;
+		float: none;
+	}
+	nav {
+		width: 100%;
+		float: none;
+	}
+	nav ul li {
+		display: block;
+	}
+	nav ul {
+		float: none;
+	}
+}
+
+</style>
+</head>
+<body>
+<header>
+		<div class="logo">SHOPZEN</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+			
+				
+				
+				<li>
+                <a href="clothesmenu.html">Go-Back</a>
+               </li>
+				<li>
+                <a href="thank.html">Logout</a>
+               </li>
+			</ul>
+		</nav>
+</header>
+<br>
+<div class='heading'>
+<h1 >KID'S CLOTHES</h1>
+</div>
+
+
+    <div class="card">   
+
+
+<img src="https://5.imimg.com/data5/SG/DY/MY-2746980/boys-kids-dress.jpg" alt="" style="width:100%">
+  <h1></h1>
+  <p class="price"></p>
+  <p></p>
+    Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+    <p><button onclick="document.location='cart.html'">Shop now</button></p>
+</div>
+
+ <div class="card">
+<img src="https://s3.ap-south-1.amazonaws.com/tcsonline-live/catalog/category/land-boys_2.jpg" alt="" style="width:100%">
+  <h1></h1>
+  <p class="price"></p>
+  <p> </p>
+    Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+    <p><button>Order now</button></p>
+</div>
+
+ <div class="card">
+<img src="https://resources.indianclothstore.com/resources/simage/17677402102023-Cream-Cotton-Kids-Kurta-Pajama.jpg" alt="" style="width:100%">
+  <h1></h1>
+  <p class="price"></p>
+  <p> </p>
+    Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+    <p><button>Order now</button></p>
+</div>
+
+ <div class="card">
+<img src="https://assets0.mirraw.com/images/12331435/Front_Morpeach_choli_long_webp.webp?1710503916" alt="" style="width:100%">
+  <h1></h1>
+  <p class="price"></p>
+  <p> </p>
+    Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+    <p><button>Order now</button></p>
+</div>
+ 
+    
+<div class="card">   
+
+
+<img src="https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1689002192257_1.jpg?noopt=true" alt="" style="width:100%">
+<h1></h1>
+
+<p class="price"></p>
+<p> </p>
+  Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+  <p><button>Order now</button></p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQKUprdSpn4sSogKqNwr8pizKzbqDs3q9NGQ&usqp=CAU" alt="" style="width:100%">
+<h1></h1>
+<p class="price"></p>
+<p> </p>
+  Qty&nbsp;:&nbsp;<input type="number" name="qty" value="0">
+  <p><button>Order now</button></p>
+</div>
+</div>
+</body>
+</html>
